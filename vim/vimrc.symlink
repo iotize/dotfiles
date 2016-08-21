@@ -1,11 +1,18 @@
 execute pathogen#infect()
 
+syntax on
+filetype plugin indent on
+
+" Insert space instead of tab
+:set expandtab
+:set tabstop=4
+:set shiftwidth=4
+
 " Color Scheme
 set background=dark
-" colorscheme solarized
 
 " Airline color scheme
-let g:airline_theme = "solarized"
+" let g:airline_theme = "solarized"
 
 " Show line numbers
 set number
@@ -16,4 +23,7 @@ set cursorline
 " Enable Ruby syntax for common files without extensions
 au BufReadPost Gemfile set syntax=ruby
 au BufReadPost Podfile set syntax=ruby
+
+" Map ctrl+s to save
+:inoremap <c-s> <Esc>:Update<CR>
 
