@@ -24,6 +24,9 @@ au BufReadPost Podfile set syntax=ruby
 " Map ctrl+s to save
 :inoremap <c-s> <Esc>:Update<CR>
 
+" Open NERDTree with ctrl+n
+map <C-n> :NERDTreeToggle<CR>
+
 " Open NERDTree on startup if no file specified
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
