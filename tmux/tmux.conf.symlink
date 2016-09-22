@@ -26,3 +26,6 @@ set -g mouse-resize-pane on
 # reload config file (change file location to your the tmux.conf you want to use)
 bind r source-file ~/.tmux.conf
 
+# open new screens in same working directory
+bind c new-window -c "#{pane_current_path}"
+
