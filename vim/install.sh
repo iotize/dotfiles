@@ -28,3 +28,8 @@ if [[ ! -e ~/.vim/bundle/vim-airline-themes ]]; then
 	echo "Installing vim-airline-themes..."
 	git clone https://github.com/vim-airline/vim-airline-themes ~/.vim/bundle/vim-airline-themes
 fi
+
+if [[ ! -e ~/.vim/bundle/nerdtree ]]; then
+    echo "Installing NERDTree..."
+    git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
+fi
