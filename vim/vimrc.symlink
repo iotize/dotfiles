@@ -24,9 +24,9 @@ au BufReadPost Podfile set syntax=ruby
 " Map ctrl+s to save
 :inoremap <c-s> <Esc>:Update<CR>
 
-" Open NERDTree on startup but move cursor to the other window
-autocmd vimenter * NERDTree
-autocmd vimenter * wincmd p
+" Open NERDTree on startup if no file specified
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 " Map changing window pane to ctrl+j, ctrl+k, ctrl+l, ctrl+h
 " instead of ctrl+w and then a direction.
