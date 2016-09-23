@@ -13,6 +13,7 @@ autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 
 " Color Scheme
 set background=dark
+colorscheme base16-default-dark
 
 " Show line numbers
 set number
