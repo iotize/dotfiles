@@ -21,6 +21,8 @@ set number
 set cursorline
 
 " Enable Ruby syntax for common files without extensions
+au BufReadPost Appfile set syntax=ruby
+au BufReadPost Fastfile set syntax=ruby
 au BufReadPost Gemfile set syntax=ruby
 au BufReadPost Podfile set syntax=ruby
 
