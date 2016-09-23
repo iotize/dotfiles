@@ -8,6 +8,9 @@ filetype plugin indent on
 :set tabstop=4
 :set shiftwidth=4
 
+" In Ruby files, use 2 spaces
+autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
+
 " Color Scheme
 set background=dark
 
