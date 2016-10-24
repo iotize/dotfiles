@@ -20,6 +20,7 @@ set number
 
 " Highlight cursor line
 set cursorline
+:hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white
 
 " Enable Ruby syntax for common files without extensions
 au BufReadPost Appfile set syntax=ruby
