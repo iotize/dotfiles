@@ -5,7 +5,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="git-pair"
+ZSH_THEME="frisk"
 
 # Disable hostname info when logged in as me
 DEFAULT_USER="Ryan"
@@ -55,7 +55,7 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew xcode)
+plugins=(git brew xcode fasd)
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -67,7 +67,7 @@ plugins=(git brew xcode)
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 # your project folder that we can `c [tab]` to
-export PROJECTS=~/Code
+export PROJECTS=~/Developer
 
 # Load Oh My Zsh
 source $ZSH/oh-my-zsh.sh
