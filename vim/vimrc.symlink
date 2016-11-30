@@ -12,15 +12,15 @@ filetype plugin indent on
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 
 " Color Scheme
-"set background=light
-"colorscheme base16-default-light
+set background=dark
+colorscheme base16-default-dark
 
 " Show line numbers
 set number
 
 " Highlight cursor line
 set cursorline
-:hi CursorLine   cterm=NONE ctermbg=lightgray ctermfg=white
+:hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white
 
 " Enable Ruby syntax for common files without extensions
 au BufReadPost Appfile set syntax=ruby
