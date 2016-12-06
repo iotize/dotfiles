@@ -29,8 +29,10 @@ if [[ ! -e ~/.vim/bundle/nerdtree ]]; then
     git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 fi
 
-if [[ ! -e ~/.vim/bundle/gruvbox ]]; then
-    echo "Installing gruvbox theme..."
-    git clone https://github.com/morhetz/gruvbox.git ~/.vim/bundle/gruvbox
+if [[ ! -e ~/.vim/bundle/tomorrow-theme ]]; then
+    echo "Installing tomorrow theme..."
+    git clone https://github.com/chriskempson/tomorrow-theme.git ~/.vim/bundle/tomorrow-theme-temp
+    mv ~/.vim/bundle/tomorrow-theme-temp/vim ~/.vim/bundle/tomorrow-theme
+    rm -Rf ~/.vim/bundle/tomorrow-theme
 fi
 
