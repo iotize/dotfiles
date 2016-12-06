@@ -12,7 +12,7 @@ filetype plugin indent on
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 
 " Color Scheme
-colorscheme gruvbox
+colorscheme Tomorrow-Night
 
 " Show line numbers
 set number
