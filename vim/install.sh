@@ -34,8 +34,8 @@ if [[ ! -e ~/.vim/bundle/nerdtree ]]; then
     git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 fi
 
-if [[ ! -e ~/.vim/bundle/base16 ]]; then
-    echo "Installing base16..."
-    git clone https://github.com/chriskempson/base16-vim.git ~/.vim/bundle/base16
+if [[ ! -e ~/.vim/bundle/gruvbox ]]; then
+    echo "Installing gruvbox theme..."
+    git clone https://github.com/morhetz/gruvbox.git ~/.vim/bundle/gruvbox
 fi
 
