@@ -14,11 +14,6 @@ if [[ ! -e ~/.vim/bundle/vim-sensible ]]; then
 	git clone git://github.com/tpope/vim-sensible.git ~/.vim/bundle/vim-sensible
 fi
 
-if [[ ! -e ~/.vim/bundle/vim-colors-solarized ]]; then
-	echo "Installing vim-colors-solarized..."
-	git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized
-fi
-
 if [[ ! -e ~/.vim/bundle/vim-airline ]]; then
 	echo "Installing vim-airline..."
 	git clone git://github.com/vim-airline/vim-airline.git ~/.vim/bundle/vim-airline
