@@ -48,6 +48,19 @@ brew 'zsh-syntax-highlighting'
 #cask 'steam'
 #cask 'vlc'
 
+cask 'qlcolorcode'
+cask 'qlstephen'
+cask 'qlmarkdown'
+cask 'quicklook-json'
+cask 'qlprettypatch'
+cask 'quicklook-csv'
+cask 'betterzipql'
+cask 'qlimagesize'
+cask 'webpquicklook'
+cask 'suspicious-package'
+cask 'quicklookase'
+cask 'qlvideo'
+
 # Get these from the MAS
 # - 1password
 # - dash
