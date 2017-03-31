@@ -60,6 +60,7 @@ cask 'webpquicklook'
 cask 'suspicious-package'
 cask 'quicklookase'
 cask 'qlvideo'
+cask 'visual-studio-code'
 
 # Get these from the MAS
 # - 1password
