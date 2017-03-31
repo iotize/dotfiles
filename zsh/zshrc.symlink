@@ -66,9 +66,6 @@ plugins=(git brew xcode fasd)
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-# your project folder that we can `c [tab]` to
-export PROJECTS=~/Code
-
 # Load Oh My Zsh
 source $ZSH/oh-my-zsh.sh
 
