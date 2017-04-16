@@ -49,6 +49,7 @@ brew 'zsh-syntax-highlighting'
 #cask 'steam'
 #cask 'vlc'
 
+cask 'android-studio'
 cask 'atom'
 cask 'betterzipql'
 cask 'qlcolorcode'
