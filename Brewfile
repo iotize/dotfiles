@@ -59,7 +59,6 @@ cask 'qlvideo'
 cask 'quicklook-csv'
 cask 'quicklook-json'
 cask 'quicklookase'
-cask 'suspicious-package'
 cask 'visual-studio-code'
 cask 'webpquicklook'
 
