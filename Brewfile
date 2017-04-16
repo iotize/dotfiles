@@ -28,6 +28,7 @@ brew 'watchman'
 brew 'wget'
 brew 'xctool'
 brew 'youtube-dl'
+brew 'z'
 brew 'zsh-syntax-highlighting'
 
 #cask 'appcleaner'
