@@ -29,7 +29,8 @@ if [[ ! -e ~/.vim/bundle/nerdtree ]]; then
     git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 fi
 
-if [[ ! -e ~/.vim/bundle/vim-colors-solarized ]]; then
-    echo "Installing solarized themes..."
-    git clone https://github.com/altercation/vim-colors-solarized ~/.vim/bundle/vim-colors-solarized
+if [[ ! -e ~/.vim/bundle/papercolor-theme ]]; then
+    echo "Installing papercolor-theme..."
+    git clone https://github.com/NLKNguyen/papercolor-theme.git ~/.vim/bundle/papercolor-theme
 fi
+

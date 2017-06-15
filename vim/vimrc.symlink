@@ -11,9 +11,9 @@ filetype plugin indent on
 " In Ruby files, use 2 spaces
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 
-" Color Scheme
-set background=dark
-colorscheme solarized
+" Colorscheme
+set background=light
+colorscheme PaperColor
 
 " Show line numbers
 set number
