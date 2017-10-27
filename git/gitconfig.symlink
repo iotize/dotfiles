@@ -21,6 +21,12 @@
     whitespace = nowarn
 [mergetool]
     keepBackup = false
+[mergetool "Kaleidoscope"]
+    cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" \"$REMOTE\"
+[mergetool]
+    prompt = false
+[merge]
+    tool = Kaleidoscope
 [mergetool "mergepbx"]
     cmd = mergepbx "$BASE" "$LOCAL" "$REMOTE" -o "$MERGED"
 #driver for merging Xcode project files
