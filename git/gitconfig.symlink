@@ -35,6 +35,10 @@
     driver = mergepbx %O %A %B
 [difftool]
     prompt = false
+[difftool "Kaleidoscope"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[diff]
+    tool = Kaleidoscope
 [help]
     autocorrect = 1
 [push]
