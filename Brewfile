@@ -62,6 +62,7 @@ cask 'quicklook-csv'
 cask 'quicklook-json'
 cask 'quicklookase'
 cask 'macdown'
+cask 'tower'
 cask 'visual-studio-code'
 cask 'webpquicklook'
 
