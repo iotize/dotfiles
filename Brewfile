@@ -61,6 +61,7 @@ cask 'qlvideo'
 cask 'quicklook-csv'
 cask 'quicklook-json'
 cask 'quicklookase'
+cask 'macdown'
 cask 'visual-studio-code'
 cask 'webpquicklook'
 
