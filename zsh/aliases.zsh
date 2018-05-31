@@ -7,10 +7,3 @@ alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias reload!=". ~/.zshrc"
 alias trash="rmtrash"
-
-alias v='f -e vim' # quick opening files with vim
-alias t='f -a -e sublime'
-alias m='f -e mplayer' # quick opening files with mplayer
-alias o='a -e open' # quick opening files with xdg-open
-
-alias sb='sublime'
