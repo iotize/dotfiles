@@ -15,6 +15,7 @@ brew 'xctool'
 brew 'z'
 brew 'zsh-syntax-highlighting'
 
+cask 'github'
 cask 'iterm2'
 cask 'opensim'
 cask 'slack'
