@@ -106,8 +106,8 @@ defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
 # Show the ~/Library folder.
 chflags nohidden ~/Library
 
-# Show all files
-defaults write com.apple.finder AppleShowAllFiles YES
+# Hide hidden files
+defaults write com.apple.finder AppleShowAllFiles NO
 
 ###############################################################################
 # Xcode                                                                       #
