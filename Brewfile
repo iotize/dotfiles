@@ -16,6 +16,7 @@ brew 'z'
 brew 'zsh-syntax-highlighting'
 
 cask 'github'
+cask 'macdown'
 cask 'opensim'
 cask 'slack'
 cask 'textmate'
