@@ -16,6 +16,7 @@ autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 
 " Colorscheme
 set background=light
+let g:airline_theme='light'
 
 " Show line numbers
 set number
