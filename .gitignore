@@ -8,3 +8,4 @@ atom/atom.symlink/storage
 atom/atom.symlink/themes
 
 git/gitconfig.local.symlink
+system/env.local.zsh
