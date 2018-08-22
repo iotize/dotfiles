@@ -2,6 +2,7 @@ cask_args appdir: '/Applications'
 
 tap 'caskroom/cask'
 tap 'homebrew/bundle'
+tap 'homebrew/cask-drivers'
 
 brew 'gist'
 brew 'hub'
