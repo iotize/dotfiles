@@ -19,6 +19,8 @@
     editor = vim
 [apply]
     whitespace = nowarn
+[fetch]
+    prune = true
 [mergetool]
     keepBackup = false
 [mergetool "Kaleidoscope"]
