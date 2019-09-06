@@ -15,8 +15,8 @@ autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 
 " Colorscheme
-set background=light
-let g:airline_theme='light'
+set background=dark
+let g:airline_theme='dark'
 
 " Show line numbers
 set number
