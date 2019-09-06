@@ -18,6 +18,7 @@ brew 'zsh-syntax-highlighting'
 
 cask 'github'
 cask 'logitech-gaming-software'
+cask 'iterm2'
 cask 'macdown'
 cask 'opensim'
 cask 'slack'
