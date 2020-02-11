@@ -18,8 +18,6 @@ brew 'z'
 brew 'zsh-syntax-highlighting'
 
 cask 'github'
-cask 'iterm2'
-cask 'macdown'
 cask 'refined-github-safari'
 cask 'opensim'
 cask 'slack'
