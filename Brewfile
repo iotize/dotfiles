@@ -24,5 +24,6 @@ cask 'opensim'
 cask 'macdown'
 cask 'slack'
 cask 'sonos'
+cask 'spotify'
 cask 'visual-studio-code'
 
