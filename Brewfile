@@ -18,6 +18,7 @@ brew 'z'
 brew 'zsh-syntax-highlighting'
 
 cask 'alfred2'
+cask 'calibre'
 cask 'github'
 cask 'iterm2'
 cask 'macdown'
