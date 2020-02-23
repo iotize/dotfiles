@@ -30,6 +30,5 @@ cask 'macdown'
 cask 'slack'
 cask 'sonos'
 cask 'spotify'
-cask 'whatsapp'
 cask 'visual-studio-code'
 
