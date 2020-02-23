@@ -12,6 +12,9 @@
       },
       "homebrew/cask-versions": {
         "revision": "1f87d2bd71e00c64b28198edbf40d386ac79a437"
+      },
+      "lautis/refined-github-safari": {
+        "revision": "10de890f452b5fc0690d873388deac1b5b5d94dd"
       }
     },
     "brew": {
@@ -340,6 +343,14 @@
       },
       "calibre": {
         "version": "4.8.0",
+        "options": {
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "refined-github-safari": {
+        "version": "2.0.26",
         "options": {
           "args": {
             "appdir": "/Applications"
