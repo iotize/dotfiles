@@ -1,6 +1,6 @@
 cask_args appdir: '/Applications'
 
-tap 'caskroom/cask'
+tap 'homebrew/cask'
 tap 'homebrew/bundle'
 tap 'homebrew/cask-drivers'
 tap 'homebrew/cask-versions'
