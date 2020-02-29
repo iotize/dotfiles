@@ -5,16 +5,19 @@
         "revision": "2eac7b34c2739277cdec7f05db2c0cb9fba46cdb"
       },
       "homebrew/bundle": {
-        "revision": "04a8b37bbdd9bb801a5fde72fd82232846cf2b69"
+        "revision": "677f39d62a8aefdcbc091f193af1f7ddbee0052d"
       },
       "homebrew/cask-drivers": {
-        "revision": "4b5c0fabd419ba2f3289bcfe94d3e1d98dcbd5d1"
+        "revision": "82cf177fa354cf3f5ab96f32e003f085bd72cbd3"
       },
       "homebrew/cask-versions": {
-        "revision": "e1f6348c63e30853bf44de561c97e7e4ec302ca0"
+        "revision": "b9d7c061a325c94997e76daf5d0469d8abe7c346"
       },
       "lautis/refined-github-safari": {
-        "revision": "b12dfbcc6232ea55d441562d34092af7b465ab7b"
+        "revision": "10de890f452b5fc0690d873388deac1b5b5d94dd"
+      },
+      "homebrew/cask": {
+        "revision": "f26039db02d0365e7e28dd45ad0f6cbc36340454"
       }
     },
     "brew": {
@@ -103,26 +106,30 @@
         }
       },
       "openssl": {
-        "version": "1.0.2s",
+        "version": "1.0.2g",
         "bottle": null
       },
       "readline": {
-        "version": "8.0.0_1",
+        "version": "6.3.8",
         "bottle": {
           "cellar": ":any",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/readline-8.0.4.catalina.bottle.tar.gz",
-              "sha256": "6ae1c8e7c783f32bd22c6085caa4d838fed7fb386da7e40ca47b87ec9b1237d6"
+              "url": "https://homebrew.bintray.com/bottles/readline-8.0.1.catalina.bottle.tar.gz",
+              "sha256": "ab3c966f4cae7d0f3ecc5688bb989820c3261f5ed547a08c84186ba7f53bdd9c"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/readline-8.0.4.mojave.bottle.tar.gz",
-              "sha256": "29f7102a730ab39c8312cad1e7e439f6da2a67c452ce2b3380581eb185a5d8e8"
+              "url": "https://homebrew.bintray.com/bottles/readline-8.0.1.mojave.bottle.tar.gz",
+              "sha256": "3c754391e9d243835811d128771ca0f1a565024100fd2c2871534353d46aaf0e"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/readline-8.0.4.high_sierra.bottle.tar.gz",
-              "sha256": "896a3d50ce8962ba56e853bdd590fadeabc00ab36475d143d6c2bea5cc15bb28"
+              "url": "https://homebrew.bintray.com/bottles/readline-8.0.1.high_sierra.bottle.tar.gz",
+              "sha256": "ae341a036139a92a47396aabc773ffcf40a17fc388aaadf0147f688c72ece987"
+            },
+            "sierra": {
+              "url": "https://homebrew.bintray.com/bottles/readline-8.0.1.sierra.bottle.tar.gz",
+              "sha256": "f234d1ff8148bf08b0ac31e661f2e96b5c6e64df26a45d2392056c9077f964af"
             }
           }
         }
@@ -243,7 +250,7 @@
         }
       },
       "github": {
-        "version": "2.2.4-be951a19",
+        "version": "1.5.0-2f0c701f",
         "options": {
           "full_name": "github",
           "args": {
@@ -252,7 +259,7 @@
         }
       },
       "iterm2": {
-        "version": "3.3.7",
+        "version": "3.2.5",
         "options": {
           "full_name": "iterm2",
           "args": {
@@ -261,7 +268,7 @@
         }
       },
       "macdown": {
-        "version": "0.7.2",
+        "version": "0.7.1",
         "options": {
           "full_name": "macdown",
           "args": {
@@ -296,7 +303,7 @@
         }
       },
       "slack": {
-        "version": "4.2.0",
+        "version": "3.3.3",
         "options": {
           "full_name": "slack",
           "args": {
@@ -305,7 +312,7 @@
         }
       },
       "sonos": {
-        "version": "10.3",
+        "version": "10.6",
         "options": {
           "full_name": "sonos",
           "args": {
@@ -331,7 +338,7 @@
         }
       },
       "visual-studio-code": {
-        "version": "1.41.1",
+        "version": "1.29.1,bc24f98b5f70467bc689abf41cc5550ca637088e",
         "options": {
           "full_name": "visual-studio-code",
           "args": {
@@ -340,7 +347,7 @@
         }
       },
       "calibre": {
-        "version": "4.11.1",
+        "version": "4.10.1",
         "options": {
           "full_name": "calibre",
           "args": {
@@ -349,9 +356,36 @@
         }
       },
       "refined-github-safari": {
-        "version": "2.0.27",
+        "version": "2.0.26",
         "options": {
           "full_name": "refined-github-safari",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "kaleidoscope": {
+        "version": "2.2.2-1376",
+        "options": {
+          "full_name": "kaleidoscope",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "paw": {
+        "version": "3.1.10",
+        "options": {
+          "full_name": "paw",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "tower": {
+        "version": "4.0,218:df8aba72",
+        "options": {
+          "full_name": "tower",
           "args": {
             "appdir": "/Applications"
           }
@@ -362,9 +396,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.2.6-27-g3317b00",
+        "HOMEBREW_VERSION": "2.2.6",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "ae7c184b597c88df00655d2c94955f4e993d27f1",
+        "Homebrew/homebrew-core": "45ca48f0f92555982ed418d1ea37cbf19fb64e5c",
         "CLT": "",
         "Xcode": "11.3.1",
         "macOS": "10.15.3"
