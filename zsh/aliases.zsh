@@ -7,3 +7,5 @@ alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias reload!=". ~/.zshrc"
 alias trash="rmtrash"
+alias tt='open -a "Textastic Trial" "$@"'
+
