@@ -30,7 +30,6 @@ cask 'paw'
 cask 'proxyman'
 cask 'slack'
 cask 'sonos'
-cask 'spotify'
 cask 'tower'
 cask 'visual-studio-code'
 
