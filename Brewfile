@@ -31,5 +31,3 @@ cask 'proxyman'
 cask 'slack'
 cask 'sonos'
 cask 'tower'
-cask 'visual-studio-code'
-
