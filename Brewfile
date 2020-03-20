@@ -35,3 +35,7 @@ cask 'slack'
 cask 'sonos'
 cask 'textmate'
 cask 'tower'
+
+# MAS apps
+#cask 'smart-json-editor'
+#cask 'things'
