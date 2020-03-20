@@ -17,6 +17,7 @@ brew 'xctool'
 brew 'z'
 brew 'zsh-syntax-highlighting'
 
+cask 'agenda'
 cask 'alfred'
 cask 'calibre'
 cask 'github'
