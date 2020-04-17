@@ -17,6 +17,7 @@ brew 'xctool'
 brew 'z'
 brew 'zsh-syntax-highlighting'
 
+cask '1password'
 cask 'agenda'
 cask 'alfred'
 cask 'calibre'
