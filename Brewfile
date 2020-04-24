@@ -3,7 +3,6 @@ cask_args appdir: '/Applications'
 tap 'homebrew/cask'
 tap 'homebrew/bundle'
 tap 'homebrew/cask-drivers'
-tap 'lautis/refined-github-safari'
 
 brew 'gist'
 brew 'hub'
