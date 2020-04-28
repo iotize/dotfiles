@@ -25,7 +25,6 @@ cask 'opensim'
 cask 'paw'
 cask 'proxyman'
 cask 'sf-symbols'
-cask 'skype-for-business'
 cask 'sonos'
 cask 'tower'
 
