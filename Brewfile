@@ -17,6 +17,7 @@ brew 'zsh-syntax-highlighting'
 
 cask '1password6'
 cask 'alfred'
+cask 'charles'
 cask 'gpg-suite'
 cask 'ksdiff'
 cask 'microsoft-teams'
