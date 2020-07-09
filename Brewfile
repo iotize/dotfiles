@@ -15,6 +15,7 @@ brew 'xctool'
 brew 'z'
 brew 'zsh-syntax-highlighting'
 
+cask '1password6'
 cask 'alfred'
 cask 'gpg-suite'
 cask 'ksdiff'
