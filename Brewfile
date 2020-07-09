@@ -30,13 +30,3 @@ cask 'refined-github-safari'
 cask 'sf-symbols'
 cask 'sonos'
 cask 'tower'
-
-# MAS apps
-#cask 'smart-json-editor'
-#cask 'things'
-
-# MAS Safari extensions
-#cask 'dark-mode-for-safari'
-#cask 'json-peep
-#cask 'magnet'
-#cask 'save-to-pocket'
