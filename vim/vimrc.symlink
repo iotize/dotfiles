@@ -7,6 +7,7 @@ Plug 'kien/rainbow_parentheses.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'jparise/vim-graphql'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'morhetz/gruvbox'
 call plug#end()
 
@@ -70,4 +71,7 @@ nnoremap <C-H> <C-W><C-H>
 
 " Add function to format JSON
 com! FormatJSON %!python -m json.tool
+
+" CoC extensions
+let g:coc_global_extensions = ['coc-tsserver', 'coc-json']
 
