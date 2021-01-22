@@ -9,9 +9,9 @@ Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'jparise/vim-graphql'
 Plug 'vim-test/vim-test'
-Plug 'morhetz/gruvbox'
 Plug 'Quramy/tsuquyomi'
 Plug 'dense-analysis/ale'
+Plug 'cormacrelf/vim-colors-github'
 call plug#end()
 
 syntax on
@@ -30,8 +30,8 @@ autocmd FileType typescript setlocal shiftwidth=2 tabstop=2
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 
 " Colorscheme
-set background=dark
-autocmd vimenter * ++nested colorscheme gruvbox
+set background=light
+colorscheme github
 
 " Refresh every 100ms
 set updatetime=100
