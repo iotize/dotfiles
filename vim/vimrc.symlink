@@ -2,6 +2,7 @@ call plug#begin()
 Plug 'tpope/vim-sensible'
 Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
+Plug 'morhetz/gruvbox'
 call plug#end()
 
 syntax on
@@ -20,6 +21,7 @@ autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 
 " Colorscheme
 set background=dark
+autocmd vimenter * ++nested colorscheme gruvbox
 
 " Show line numbers
 set number
