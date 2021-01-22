@@ -30,7 +30,7 @@ autocmd FileType typescript setlocal shiftwidth=2 tabstop=2
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 
 " Colorscheme
-set background=light
+set background=dark
 colorscheme github
 
 " Syntax highlighting for .ts files
