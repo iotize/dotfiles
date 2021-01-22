@@ -2,6 +2,7 @@ call plug#begin()
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-dispatch'
 Plug 'scrooloose/nerdtree'
+Plug 'ctrlpvim/ctrlp.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'kien/rainbow_parentheses.vim'
@@ -67,6 +68,9 @@ au Syntax * RainbowParenthesesLoadBraces
 
 " Map ctrl+s to save
 :inoremap <c-s> <Esc>:Update<CR>
+
+" Map ctrl+p to fuzzy search
+let g:ctrlp_map = '<c-p>'
 
 " Open NERDTree with ctrl+n
 map <C-n> :NERDTreeToggle<CR>
