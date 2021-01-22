@@ -15,8 +15,9 @@ filetype plugin indent on
 :set tabstop=4
 :set shiftwidth=4
 
-" In JavaScript files, use 2 spaces
+" In JavaScript and TypeScript files, use 2 spaces
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
+autocmd FileType typescript setlocal shiftwidth=2 tabstop=2
 
 " In Ruby files, use 2 spaces
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
