@@ -6,6 +6,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
+Plug 'jparise/vim-graphql'
 Plug 'morhetz/gruvbox'
 call plug#end()
 
