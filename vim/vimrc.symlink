@@ -1,4 +1,8 @@
-execute pathogen#infect()
+call plug#begin()
+Plug 'tpope/vim-sensible'
+Plug 'scrooloose/nerdtree'
+Plug 'vim-airline/vim-airline'
+call plug#end()
 
 syntax on
 filetype plugin indent on
@@ -16,7 +20,6 @@ autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 
 " Colorscheme
 set background=dark
-let g:airline_theme='dark'
 
 " Show line numbers
 set number
