@@ -33,6 +33,9 @@ autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 set background=light
 colorscheme github
 
+" Syntax highlighting for .ts files
+au BufRead,BufNewFile *.ts   setfiletype typescript
+
 " Refresh every 100ms
 set updatetime=100
 
