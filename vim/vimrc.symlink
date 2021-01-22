@@ -9,8 +9,9 @@ Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'jparise/vim-graphql'
 Plug 'vim-test/vim-test'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'morhetz/gruvbox'
+Plug 'Quramy/tsuquyomi'
+Plug 'dense-analysis/ale'
 call plug#end()
 
 syntax on
@@ -48,6 +49,10 @@ au BufReadPost Fastfile set syntax=ruby
 au BufReadPost Gemfile set syntax=ruby
 au BufReadPost Podfile set syntax=ruby
 
+" Autofix
+let b:ale_fixers = ['prettier', 'eslint']
+let g:ale_fix_on_save = 1
+
 " Enable rainbow parentheses
 au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
@@ -76,17 +81,4 @@ let test#strategy = "dispatch"
 
 " Add function to format JSON
 com! FormatJSON %!python -m json.tool
-
-" CoC extensions
-let g:coc_global_extensions = ['coc-tsserver', 'coc-json']
-
-" Add coc Prettier if prettier is installed
-if isdirectory('./node_modules') && isdirectory('./node_modules/prettier')
-  let g:coc_global_extensions += ['coc-prettier']
-endif
-
-" Add Coc ESLint if ESLint is installed
-if isdirectory('./node_modules') && isdirectory('./node_modules/eslint')
-  let g:coc_global_extensions += ['coc-eslint']
-endif
 
