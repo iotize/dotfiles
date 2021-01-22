@@ -26,6 +26,9 @@ autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 set background=dark
 autocmd vimenter * ++nested colorscheme gruvbox
 
+" Refresh every 100ms
+set updatetime=100
+
 " Show line numbers
 set number
 
