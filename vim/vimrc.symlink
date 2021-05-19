@@ -11,7 +11,7 @@ Plug 'leafgarland/typescript-vim'
 Plug 'jparise/vim-graphql'
 Plug 'vim-test/vim-test'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'cormacrelf/vim-colors-github'
+Plug 'dracula/vim', { 'as': 'dracula' }
 call plug#end()
 
 syntax on
@@ -31,7 +31,7 @@ autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 
 " Colorscheme
 set background=dark
-colorscheme github
+colorscheme dracula
 
 " Syntax highlighting for .ts files
 au BufRead,BufNewFile *.ts   setfiletype typescript
