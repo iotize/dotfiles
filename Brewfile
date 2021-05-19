@@ -16,7 +16,7 @@ brew 'xctool'
 brew 'z'
 brew 'zsh-syntax-highlighting'
 
-cask '1password6'
+cask '1password'
 cask 'alfred'
 cask 'charles'
 cask 'github-desktop'
