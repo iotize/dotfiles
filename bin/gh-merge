@@ -1,0 +1,7 @@
+#!/bin/zsh
+
+until gh pr merge --merge --delete-branch $1
+do
+  sleep 10
+  echo "Trying again..."
+done
