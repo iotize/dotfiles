@@ -1,0 +1,13 @@
+#!/bin/zsh
+
+while gh pr list | grep -e "dependabot/"
+do
+  PR_NUMBER=$(gh pr list | grep -e "dependabot/" | grep -o "^[0-9]*" | head -1)
+  gh pr review --approve $PR_NUMBER
+  echo "Merging $PR_NUMBER..."
+  until gh pr merge --merge --delete-branch $PR_NUMBER
+  do
+    sleep 10
+    echo "Trying again..."
+  done
+done
